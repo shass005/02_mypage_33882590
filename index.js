@@ -27,7 +27,7 @@ http.createServer(function(req, res) {
          <h2>About Me:</h2>
          <p>I am an Undergraduate Computer Science student at Goldsmith University. This is my third and final year at Goldsmith...</p>
          <!--This is a comment-->
-         <p>Week 3 Task 4: Perform a full round-trip.</p>
+         <p>Week 3 Task 4: Perform a full round-trip. I also saw that my placement of the closing html tag was wrong last week, so the page content wasn't being displayed. I've fixed it.</p>
         </body>
        </html> 
         `);
