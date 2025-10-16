@@ -22,14 +22,13 @@ http.createServer(function(req, res) {
            color: white;
           }   
          </style>
-        </html>
         <body>
          <h1>This is MyPage</h1>
          <h2>About Me:</h2>
          <p>I am an Undergraduate Computer Science student at Goldsmith University. This is my third and final year at Goldsmith...</p>
          <!--This is a comment-->
         </body>
-        
+       </html> 
         `);
     }).listen(port, function() { 
         console.log(`Node server is running on port ${port}...`); 
