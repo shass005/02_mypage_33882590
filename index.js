@@ -22,7 +22,6 @@ http.createServer(function(req, res) {
            color: white;
           }   
          </style>
-        </html>
         <body>
          <h1>This is MyPage</h1>
          <h2>About Me:</h2>
@@ -30,7 +29,7 @@ http.createServer(function(req, res) {
          <!--This is a comment-->
          <p>Week 3 Task 4: Perform a full round-trip.</p>
         </body>
-        
+       </html> 
         `);
     }).listen(port, function() { 
         console.log(`Node server is running on port ${port}...`); 
